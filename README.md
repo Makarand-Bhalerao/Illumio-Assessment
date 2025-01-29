@@ -1,14 +1,15 @@
 # Illumio-Assessment
 
 ## Instructions to Run the Code
-- Run the script using the command : python3 assessment.py on any IDE <br>
+- Run the script using the command : python3 assessment.py<br>
 - After running the program, when prompted, provide the file paths from where to fetch the lookup table csv file and flow log file and the filepath where you want to store the output file.<br>
 - The script will process the files and generate the output showing tag counts and port/protocol combination counts.
 
 
 ## Assumptions made
 - The program only supports default log format for version 2 and above
-- In case two tags map to the same port/protocol combination they will be separated by the delimited ";"
+- The code was tested on default log format for version 2 and above
+- In case two tags map to the same port/protocol combination they will be separated by the delimiter ";"
 - The code was tested on AWS VPC Flow logs format
 - The flow log data only contains protocols which are listed in the protocol_mappings dictionary in the `read_flow_log` function
 
