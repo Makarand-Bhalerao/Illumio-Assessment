@@ -22,6 +22,7 @@ def read_lookup_table(file_path):
                 if key not in lookup_dictionary:
                     lookup_dictionary[key] = []
                 lookup_dictionary[key].extend(tags_list)
+            # If any entry in the lookup table is not in specified format skip it
             else:
                 print(f"Error: Skipping line : {line.strip()} , invalid format")
                 continue
