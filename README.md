@@ -12,6 +12,7 @@
 - In case two tags map to the same port/protocol combination they will be separated by the delimiter ";"
 - The code was tested on AWS VPC Flow logs format
 - The flow log data only contains protocols which are listed in the protocol_mappings dictionary in the `read_flow_log` function
+- The code supports only the protocols which are listed in the protocol_mapping dictionary, any other protocol is tagged as unknown
 
 ## Code Explanation
 
