@@ -1,7 +1,7 @@
 # Illumio-Assessment
 
 ## Instructions to Run the Code
-- Run the script using the command : python3 assessment.py<br>
+- Run the script using the command : python assessment.py<br>
 - After running the program, when prompted, provide the file paths from where to fetch the lookup table csv file and flow log file and the filepath where you want to store the output file.<br>
 - The script will process the files and generate the output showing tag counts and port/protocol combination counts.
 
